@@ -46,5 +46,9 @@ File name searches are exposed in 2 ways:
 1. Regex searches that are more flexible in terms of searching pattern but could be slow for large pools of files even when caching the precompiled matching pattern
 2. Lucene search that are not so flexible even it permits wildcards searches and file name tokenization, but offers better searching times for large file sets through custom data structure used for storing names in the index     
 
+For Continuous Integration support I integrated this github repo with Travis CI: [![Build Status](https://travis-ci.org/tiberiuemilian/ten-billion-files.svg?branch=master)](https://travis-ci.org/tiberiuemilian/ten-billion-files)
+
+Now CI addresses only automatic tests run but it could be easy customized for other CI tasks like jars or dockers generation and upload & continuous delivery.
+
 
  
