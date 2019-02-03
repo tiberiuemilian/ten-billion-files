@@ -1,0 +1,12 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+drive[0-9]/
+drive[0-9][0-9]/
+
